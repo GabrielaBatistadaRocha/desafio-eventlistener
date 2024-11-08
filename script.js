@@ -46,9 +46,12 @@ botaoAdicionar.addEventListener("click", function(event) {
     var imc = peso / (altura * altura);
 
     var pacienteTr = document.createElement("tr");
+    pacienteTr.classList.add("paciente"); 
 
     var nomeTd = document.createElement("td");
+
     var pesoTd = document.createElement("td");
+    
     var alturaTd = document.createElement("td");
     var gorduraTd = document.createElement("td");
     var imcTd = document.createElement("td");
